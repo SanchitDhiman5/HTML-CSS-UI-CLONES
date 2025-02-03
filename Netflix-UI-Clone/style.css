@@ -125,21 +125,22 @@ nav {
   line-height: 2;
 }
 
-.main-header .get-started {
+.get-started,
+.membership-input {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 10px;
   margin-top: 10px;
 }
-.main-header .get-started button {
+.get-started button,
+.membership-input button {
   display: flex;
   align-items: center;
   padding: 9px 11px;
   background-color: red;
   color: #fff;
   border: none;
-
   border-radius: 5px;
   cursor: pointer;
   font-size: 20px;
@@ -147,11 +148,13 @@ nav {
   gap: 10px;
   transition: all 0.3s;
 }
-.main-header .get-started button img {
-  filter: invert(1);
-}
-.main-header .get-started button:hover {
+.get-started button,
+.membership-input button:hover {
   background-color: #a42323;
+}
+.get-started button img,
+.membership-input img {
+  filter: invert(1);
 }
 .get-started input {
   background-color: #1e1e1ea0;
@@ -322,4 +325,33 @@ nav {
 }
 .questions img {
   filter: invert(1);
+}
+
+/* ------- Membership -------- */
+.membership {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.membership p {
+  font-size: 18px;
+  margin-top: 25px;
+  line-height: 2;
+}
+
+.membership-input {
+  width: 100%;
+}
+.membership-input input {
+  background-color: #1e1e1ea0;
+  border: 1px solid #ccc;
+  padding: 10px 10px;
+  max-width: 600px;
+  width: 100%;
+  border-radius: 5px;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
 }
