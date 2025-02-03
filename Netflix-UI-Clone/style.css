@@ -181,7 +181,8 @@ nav {
 /* --------- Trending Now / More Reasons To Join ------------ */
 
 .trending-now,
-.reason-to-join {
+.reason-to-join,
+.f-a-q {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -191,11 +192,13 @@ nav {
 }
 
 .td-heading,
-.feature-heading {
+.feature-heading,
+.faq-heading {
   margin: 20px 0;
 }
 .trending-now td.heading h2,
-.reason-to-join .feature-heading h2 {
+.reason-to-join .feature-heading h2,
+.faq-heading h2 {
   font-size: 25px;
   font-weight: 600;
 }
@@ -290,4 +293,33 @@ nav {
   position: absolute;
   bottom: 10px;
   right: 10px;
+}
+
+/* ---------- Frequently Asked Questions --------------*/
+.questions-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+  gap: 20px;
+}
+.questions {
+  background-color: #2d2d2d;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 20px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.questions:hover {
+  background-color: #4e4c4c;
+}
+.questions p {
+  font-size: 22px;
+  font-weight: 500;
+}
+.questions img {
+  filter: invert(1);
 }
