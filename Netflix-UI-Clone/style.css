@@ -178,3 +178,78 @@ nav {
     rgba(33, 13, 22, 1) 84%
   );
 }
+
+/* --------- Trending Now------------ */
+
+.trending-now {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 1200px;
+  padding: 0 40px;
+  margin: 50px auto;
+}
+
+.td-heading {
+  margin: 20px 0;
+}
+.trending-now td.heading h2 {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.trending-box-cards-container {
+  width: 100%;
+  display: flex;
+  align-content: space-between;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+.trend-box {
+  width: 180px;
+  height: 252px;
+  position: relative;
+  /* margin: 10px 20px; */
+  transition: all 0.4s;
+  cursor: pointer;
+}
+.trend-box:hover {
+  transform: scale(1.11);
+}
+
+.card-1 {
+  background-image: url(./assets/t1.webp);
+  border-radius: 8px;
+  background-position: center;
+}
+.card-2 {
+  background-image: url(./assets/t2.webp);
+  background-position: center;
+  border-radius: 8px;
+}
+.card-3 {
+  background-image: url(./assets/t3.webp);
+  border-radius: 8px;
+  background-position: center;
+}
+.card-4 {
+  background-image: url(./assets/t4.webp);
+  border-radius: 8px;
+  background-position: center;
+}
+.card-5 {
+  background-image: url(./assets/t5.webp);
+  border-radius: 8px;
+  background-position: center;
+}
+
+.trend-box .num {
+  color: #000000;
+  font-weight: bolder;
+  font-size: 100px;
+  -webkit-text-stroke: 2px #ffffff;
+  position: absolute;
+  bottom: -16px;
+  left: -21px;
+}
