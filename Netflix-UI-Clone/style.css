@@ -47,7 +47,7 @@ header {
   align-items: center;
   height: 100%;
   width: 100%;
-  /* justify-content: end; */
+
   gap: 20%;
 }
 
@@ -109,7 +109,6 @@ nav {
   align-items: center;
   gap: 10px;
   width: 100%;
-  /* margin-top: 150px; */
 }
 .main-header h1 {
   text-align: center;
@@ -140,7 +139,7 @@ nav {
   background-color: red;
   color: #fff;
   border: none;
-  /* margin: 10px; */
+
   border-radius: 5px;
   cursor: pointer;
   font-size: 20px;
@@ -179,9 +178,10 @@ nav {
   );
 }
 
-/* --------- Trending Now------------ */
+/* --------- Trending Now / More Reasons To Join ------------ */
 
-.trending-now {
+.trending-now,
+.reason-to-join {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -190,10 +190,12 @@ nav {
   margin: 50px auto;
 }
 
-.td-heading {
+.td-heading,
+.feature-heading {
   margin: 20px 0;
 }
-.trending-now td.heading h2 {
+.trending-now td.heading h2,
+.reason-to-join .feature-heading h2 {
   font-size: 25px;
   font-weight: 600;
 }
@@ -210,7 +212,7 @@ nav {
   width: 180px;
   height: 252px;
   position: relative;
-  /* margin: 10px 20px; */
+
   transition: all 0.4s;
   cursor: pointer;
 }
@@ -252,4 +254,40 @@ nav {
   position: absolute;
   bottom: -16px;
   left: -21px;
+}
+
+/* ------------- More Reasons To Join-------------- */
+.feature-box-cards-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.feature-card {
+  width: 250px;
+  height: 300px;
+  position: relative;
+  background: linear-gradient(to bottom, #071855, #28142d);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  /* align-items: flex-start;
+  justify-content: space-around; */
+}
+.feature-card h3 {
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+.feature-card p {
+  font-size: 16px;
+  color: #a2a1a1c8;
+  font-weight: bold;
+}
+.feature-card img {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
 }
