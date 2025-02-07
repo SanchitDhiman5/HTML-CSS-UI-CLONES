@@ -60,3 +60,47 @@
     font-size: 18px;
   }
 }
+
+@media only screen and (max-width: 500px) {
+  header nav img[alt="logo"] {
+    width: 120px;
+  }
+  .lang-dropdown-btn img {
+    width: 14px;
+  }
+  .lang-dropdown-btn span {
+    font-size: 12px;
+  }
+  .nav-info .sign-in-btn {
+    font-size: 13px;
+  }
+  .main-header h1 {
+    font-size: 30px;
+    line-height: 44px;
+  }
+  .main-header h3 {
+    font-size: 16px;
+  }
+  .main-header p {
+    font-size: 13px;
+  }
+  .main-header .get-started input {
+    width: 350px;
+  }
+  .get-started button,
+  .membership-input button {
+    font-size: 17px;
+  }
+  .membership p {
+    width: 90%;
+  }
+  .questions p {
+    font-size: 20px;
+  }
+  footer {
+    padding: 0 20px;
+  }
+  .footer-links .links {
+    min-width: 154px;
+  }
+}
