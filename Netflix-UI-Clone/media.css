@@ -62,6 +62,9 @@
 }
 
 @media only screen and (max-width: 500px) {
+  nav {
+    width: 90%;
+  }
   header nav img[alt="logo"] {
     width: 120px;
   }
