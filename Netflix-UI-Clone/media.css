@@ -1,0 +1,27 @@
+@media only screen and (max-width: 1024px) {
+  header nav img[alt="logo"] {
+    width: 180px;
+  }
+  .lang-dropdown-btn {
+    padding: 8px;
+  }
+  .nav-info .sign-in-btn {
+    padding: 8px 20px;
+  }
+  .main-header h1 {
+    font-size: 46px;
+  }
+  .main-header h3 {
+    font-size: 18px;
+  }
+  .main-header p {
+    font-size: 16px;
+    margin-top: 20px;
+  }
+  .membership p {
+    font-size: 16px;
+  }
+  .membership-input input {
+    max-width: 380px;
+  }
+}
