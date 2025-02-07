@@ -25,3 +25,38 @@
     max-width: 380px;
   }
 }
+
+@media only screen and (max-width: 700px) {
+  header nav img[alt="logo"] {
+    width: 150px;
+  }
+  .lang-dropdown-btn {
+    padding: 6px;
+  }
+  .nav-info .sign-in-btn {
+    padding: 6px 10px;
+  }
+  .main-header h1 {
+    font-size: 40px;
+    line-height: 60px;
+  }
+  .main-header h3 {
+    font-size: 17px;
+  }
+  .main-header p {
+    font-size: 14px;
+    margin-top: 15px;
+  }
+  .main-header .get-started input {
+    width: 400px;
+  }
+  .get-started,
+  .membership-input {
+    width: 90%;
+    flex-wrap: wrap;
+  }
+  .get-started button,
+  .membership-input button {
+    font-size: 18px;
+  }
+}
