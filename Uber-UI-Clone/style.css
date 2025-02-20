@@ -401,3 +401,23 @@ section h2 {
   align-items: center;
   gap: 20px;
 }
+
+/* reimagined Business Section */
+#reimagined-business-solution {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  max-width: 1200px;
+  margin: 150px auto;
+}
+
+#reimagined-business-solution img {
+  width: 560px;
+  height: 560px;
+}
+
+#reimagined-business-solution #content h3 {
+  font-size: 52px;
+  color: #333333;
+}
