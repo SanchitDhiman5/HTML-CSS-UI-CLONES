@@ -338,8 +338,9 @@ section h2 {
   padding-bottom: 5px;
 }
 
-/*  To drive Section  */
-#login-to-drive {
+/*  To drive Section &   Renting Out Car Section*/
+#login-to-drive,
+#renting-out-car {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -348,7 +349,8 @@ section h2 {
   margin: 150px auto;
 }
 
-#login-to-drive img {
+#login-to-drive img,
+#renting-out-car img {
   width: 560px;
   height: 560px;
 }
