@@ -10,6 +10,11 @@ body {
   overflow-x: hidden;
 }
 
+button {
+  -webkit-tap-highlight-color: transparent;
+  user-select: none;
+}
+
 header {
   background-color: #000000;
 }

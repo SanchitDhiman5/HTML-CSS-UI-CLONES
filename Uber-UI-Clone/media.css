@@ -4,7 +4,7 @@
     display: none;
   }
 
-  .dikho {
+  .log-sign {
     display: block;
   }
 
@@ -121,7 +121,7 @@
     display: none;
   }
 
-  .dikho {
+  .log-sign {
     display: block;
   }
 
@@ -184,7 +184,7 @@
     width: 100%;
   }
 
-  #login-to-recent-activityr {
+  #login-to-recent-activity {
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -254,5 +254,63 @@
 
   .text p {
     display: none;
+  }
+}
+
+@media only screen and (max-width: 330px) {
+  nav {
+    padding: 10px 15px;
+  }
+  #nav-right {
+    gap: 10px;
+  }
+  nav .btn {
+    padding: 6px 6px;
+    font-size: 15px;
+  }
+
+  .location input {
+    font-size: 16px;
+    width: 293px;
+  }
+
+  #main-left button {
+    padding: 10px 16px;
+    font-size: 13px;
+  }
+
+  #ride-w-u {
+    max-width: 300px;
+  }
+
+  section {
+    padding: 10px 15px;
+  }
+
+  .content h3 {
+    font-size: 45px;
+  }
+
+  #login-to-recent-activity img {
+    max-width: 300px;
+  }
+  .login-to-recent-activity-left button,
+  .content button,
+  .content a {
+    font-size: 14px;
+  }
+  #login-to-drive img,
+  #renting-out-car img,
+  #reimagined-business-solution img {
+    width: 300px;
+    height: 310px;
+  }
+
+  #download-app {
+    padding-inline: 15px;
+  }
+
+  .text h4 {
+    font-size: 18px;
   }
 }
