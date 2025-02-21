@@ -106,7 +106,149 @@
     height: 85px;
   }
 
-  #unique {
+  #download-app {
+    padding-inline: 30px;
+  }
+
+  .text p {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  nav a,
+  .align {
+    display: none;
+  }
+
+  .dikho {
+    display: block;
+  }
+
+  .location input {
+    max-width: 300px;
+    height: 30px;
+  }
+
+  main #main-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  main #main-left h1 {
+    font-size: 30px;
+  }
+
+  #main-left .rid-cou,
+  #main-left .ultra-lower {
+    display: none;
+  }
+
+  #sp-div {
+    display: block;
+    margin-block: 10px;
+  }
+
+  #main-right {
+    display: none;
+  }
+
+  #ride-w-u {
+    display: block;
+    max-width: 350px;
+    margin-top: 20px;
+  }
+
+  main {
+    background-color: #000000;
+    color: #ffffff;
+  }
+
+  #main-left button {
+    background-color: #ffffff;
+    color: #000000;
+    transition: all 0.3s;
+  }
+
+  #main-left button:hover {
+    background-color: #e1e0e0;
+  }
+
+  #suggestion {
+    flex-direction: column;
+  }
+
+  #suggestion .s-box {
+    width: 100%;
+  }
+
+  #login-to-recent-activityr {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+
+  #login-to-recent-activity img {
+    max-width: 330px;
+    margin: 20px;
+  }
+
+  .login-to-recent-activity-left {
+    align-items: center;
+    text-align: center;
+  }
+
+  #login-to-drive,
+  #renting-out-ca {
+    flex-direction: column-reverse;
+  }
+
+  #login-to-drive img,
+  #renting-out-car img {
+    width: 330px;
+    height: 330px;
+  }
+
+  .content {
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+  }
+
+  #reimagined-business-solution {
+    flex-direction: column;
+  }
+
+  #reimagined-business-solution img {
+    width: 330px;
+    height: 330px;
+  }
+
+  #card-cont {
+    flex-direction: column;
+    align-items: start;
+    gap: 30px;
+  }
+
+  .card-box {
+    width: 100%;
+    justify-content: start;
+  }
+
+  .card-box > img {
+    display: none;
+  }
+
+  .show-img {
+    display: block !important;
+    width: 85px !important;
+    height: 85px !important;
+  }
+
+  #download-app {
     padding-inline: 30px;
   }
 
