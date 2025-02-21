@@ -347,6 +347,7 @@ section h2 {
   gap: 30px;
   max-width: 1200px;
   margin: 150px auto;
+  padding: 0 1%;
 }
 
 #login-to-drive img,
@@ -412,6 +413,7 @@ section h2 {
   gap: 30px;
   max-width: 1200px;
   margin: 150px auto;
+  padding: 0 1%;
 }
 
 #reimagined-business-solution img {

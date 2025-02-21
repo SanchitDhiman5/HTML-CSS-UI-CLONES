@@ -1,0 +1,116 @@
+@media only screen and (max-width: 1220px) {
+  nav a,
+  .align {
+    display: none;
+  }
+
+  .dikho {
+    display: block;
+  }
+
+  .btn {
+    background-color: #fff;
+    color: #000000;
+    border-radius: 30px;
+    padding: 7px 13px;
+  }
+
+  #main-left .rid-cou,
+  #main-left .ultra-lower {
+    display: none;
+  }
+
+  #sp-div {
+    display: block;
+    margin-block: 10px;
+  }
+
+  #main-right {
+    display: none;
+  }
+
+  #ride-w-u {
+    display: block;
+    max-width: 480px;
+    margin-top: 20px;
+  }
+
+  main {
+    background-color: #000000;
+    color: #ffffff;
+  }
+
+  #main-left button {
+    background-color: #ffffff;
+    color: #000000;
+    transition: all 0.3s;
+  }
+
+  #main-left button:hover {
+    background-color: #e1e0e0;
+  }
+
+  #suggestion {
+    flex-direction: column;
+  }
+
+  #suggestion .s-box {
+    width: 100%;
+  }
+
+  #login-to-recent-activity {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .login-to-recent-activity-left {
+    align-items: center;
+    text-align: center;
+  }
+
+  #login-to-drive,
+  #renting-out-car {
+    flex-direction: column-reverse;
+  }
+
+  .content {
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+  }
+
+  #reimagined-business-solution {
+    flex-direction: column;
+  }
+
+  #card-cont {
+    flex-direction: column;
+    align-items: start;
+    gap: 30px;
+  }
+
+  .card-box {
+    width: 100%;
+    justify-content: start;
+  }
+
+  .card-box > img {
+    display: none;
+  }
+
+  .show-img {
+    display: block !important;
+    width: 85px;
+    height: 85px;
+  }
+
+  #unique {
+    padding-inline: 30px;
+  }
+
+  .text p {
+    display: none;
+  }
+}
